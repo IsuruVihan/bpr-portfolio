@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 
 const Home: FC = () => {
   return (
-    <Container fluid>
+    <Container className="home" fluid>
       Home
     </Container>
   );

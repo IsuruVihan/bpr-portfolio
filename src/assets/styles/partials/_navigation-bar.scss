@@ -2,6 +2,7 @@
   font-family: 'Nunito', sans-serif;
 
   .navigation-bar {
+    position: relative;
     background: $nav-background-color;
 
     .heading {
@@ -9,6 +10,7 @@
       font-weight: 700;
 
       .heading-text {
+        color: white;
         cursor: pointer;
       }
     }
@@ -22,7 +24,7 @@
         border-radius: 30px;
 
         a {
-          color: black;
+          color: white;
           text-decoration: none;
         }
 

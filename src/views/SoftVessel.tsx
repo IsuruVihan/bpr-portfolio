@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 
 const SoftVessel: FC = () => {
   return (
-    <Container fluid>
+    <Container className="softvessel" fluid>
       SoftVessel
     </Container>
   );
