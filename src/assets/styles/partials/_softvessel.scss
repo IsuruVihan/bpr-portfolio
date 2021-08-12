@@ -1,5 +1,14 @@
 .app {
   .softvessel {
-
+    .title {
+      font-size: 1.3em;
+      font-weight: 600;
+    }
+    .content {
+      text-align: justify;
+    }
+    .image {
+      height: 100%;
+    }
   }
 }
