@@ -1,6 +1,6 @@
 import React, {FC, useState} from 'react';
-import {Col, Container, FloatingLabel, Row} from "react-bootstrap";
-import Link from "./Link";
+import {Col, Container, Row} from "react-bootstrap";
+import NavLink from "./Link";
 
 const NavigationBar: FC = () => {
   const [clickedHome, setClickedHome] = useState<boolean>(true);
@@ -33,18 +33,21 @@ const NavigationBar: FC = () => {
         </Col>
         <Col className="px-0">
           <Row className="mx-0 justify-content-xl-end justify-content-evenly links">
-            <Link
+            <NavLink
               clicked={clickedHome}
+              link={"/"}
               handleOnClick={handleOnClickHome}
               text={"Home"}
             />
-            <Link
+            <NavLink
               clicked={clickedCL}
+              link={"/commercial-leasing"}
               handleOnClick={handleOnClickCL}
               text={"Com-Leasing"}
             />
-            <Link
+            <NavLink
               clicked={clickedSV}
+              link={"/softvessel"}
               handleOnClick={handleOnClickSV}
               text={"SoftVessel"}
             />

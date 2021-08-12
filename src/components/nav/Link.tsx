@@ -1,14 +1,16 @@
 import React, {FC} from 'react';
 import {Col} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
-type LinkProps = {
+type NavLinkProps = {
   clicked: boolean,
+  link: string,
   handleOnClick: () => void,
   text: string
 };
 
-const Link: FC<LinkProps> = (props) => {
-  const {clicked, handleOnClick, text} = props;
+const NavLink: FC<NavLinkProps> = (props) => {
+  const {clicked, link, handleOnClick, text} = props;
 
   return (
     <Col
@@ -17,9 +19,11 @@ const Link: FC<LinkProps> = (props) => {
       className={clicked ? "link text-center clicked mx-2" : "link text-center mx-2"}
       onClick={() => handleOnClick()}
     >
-      {text}
+      <Link to={link}>
+        {text}
+      </Link>
     </Col>
   );
 }
 
-export default Link;
+export default NavLink;
