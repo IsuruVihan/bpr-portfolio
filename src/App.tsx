@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
 import './App.scss';
+import './assets/styles/main.scss';
 import {Container} from "react-bootstrap";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import NavigationBar from "./components/nav/NavigationBar";
@@ -10,7 +11,7 @@ import CommercialLeasing from "./views/CommercialLeasing";
 const App: FC = () => {
   return (
     <BrowserRouter>
-      <Container className="px-0" fluid>
+      <Container className="px-0 app" fluid>
         <NavigationBar />
         <Switch>
           <Route exact path="/">

@@ -1,0 +1,47 @@
+.app {
+  font-family: 'Nunito', sans-serif;
+
+  .navigation-bar {
+    background: $nav-background-color;
+
+    .heading {
+      font-size: 1.5em;
+      font-weight: 700;
+
+      .heading-text {
+        cursor: pointer;
+      }
+    }
+    .links {
+      font-weight: 800;
+      font-size: 0.9em;
+
+      .link {
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 30px;
+
+        &:hover {
+          background: $clicked-nav-link-background-color;
+        }
+      }
+
+      .clicked {
+        color: white;
+        background: $clicked-nav-link-background-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .link {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .link {
+    font-size: 0.8em;
+  }
+}
