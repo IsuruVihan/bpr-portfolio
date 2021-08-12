@@ -60,7 +60,7 @@ const ParticleBackground: FC = () => {
           },
           move: {
             enable: true,
-            speed: 8,
+            speed: 7,
             direction: "none",
             random: true,
             straight: false,

@@ -71,13 +71,13 @@ const CommercialLeasing: FC = () => {
                       </Accordion.Header>
                       <Accordion.Body>
                         <Row className="mx-0">
-                          <Col className="content" xs={8}>
+                          <Col className="content pb-3" md={8}>
                             Commercial Leasing & Finance PLC (CLC) - Kandy Metro also known as a factoring branch is
                             the main touch point for the customers in Kandy. For this study, we will be studying the
                             three main processes (mentioned below) of this branch and suggesting the most efficient
                             solutions to improve its performance.
                           </Col>
-                          <Col xs={4}>
+                          <Col md={4}>
                             <Alert variant="info" className="text-center">
                               Customer Relations
                             </Alert>
