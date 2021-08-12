@@ -3,7 +3,10 @@ import Particles from "react-particles-js";
 
 const ParticleBackground: FC = () => {
   return (
-    <Particles style={{position: 'absolute'}} params={
+    <Particles
+      style={{position: 'absolute'}}
+      height="1000px"
+      params={
       {
         particles: {
           number: {
