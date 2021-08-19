@@ -1,4 +1,6 @@
 .app {
+  background: #bae7ff;
+
   .home {
     position: relative;
 
@@ -6,6 +8,18 @@
       .title {
         font-size: 2em;
         font-weight: 700;
+      }
+    }
+
+    .our-progress {
+      .title {
+        font-size: 2em;
+        font-weight: 700;
+      }
+      .timeline {
+        .content {
+          text-align: justify;
+        }
       }
     }
   }

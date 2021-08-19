@@ -31,7 +31,7 @@ const OurTeam: FC = () => {
   ];
 
   return (
-    <Row className="mx-0 mt-4 our-team justify-content-center">
+    <Row className="mx-0 my-5 py-5 our-team justify-content-center">
       <Col className="px-0 pb-3 title text-center" xs={12}>
         Our Team
       </Col>

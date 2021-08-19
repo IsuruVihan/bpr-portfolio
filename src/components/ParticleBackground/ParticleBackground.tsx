@@ -5,7 +5,7 @@ const ParticleBackground: FC = () => {
   return (
     <Particles
       style={{position: 'absolute'}}
-      height="1000px"
+      height="235vh"
       params={
       {
         particles: {
@@ -17,7 +17,7 @@ const ParticleBackground: FC = () => {
             }
           },
           color: {
-            value: "#bae7ff"
+            value: "#096dd9"
           },
           shape: {
             type: "polygon",
@@ -63,7 +63,7 @@ const ParticleBackground: FC = () => {
           },
           move: {
             enable: true,
-            speed: 6,
+            speed: 5,
             direction: "none",
             random: true,
             straight: false,

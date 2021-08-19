@@ -1,24 +1,41 @@
 import React, {FC} from 'react';
-import {Accordion, Alert, Col, Container, Row, Tab, Tabs} from "react-bootstrap";
+import {Accordion, Alert, Col, Container, Image, Row, Tab, Tabs} from "react-bootstrap";
 import ProductServicesCard from "../components/ProductServicesCard";
 import ReactLogo from "../assets/images/react-logo.png";
 import EnterpriseApp from "../assets/images/enterprise-application.png";
 import CloudServices from "../assets/images/cloud-services.jpg";
-import Saas from "../assets/images/saas.png";
+import SaaS from "../assets/images/saas.png";
 import MobileApps from "../assets/images/moblie-apps.jpg";
 import Ecommerce from "../assets/images/ecommerce.jpg";
+import SoftvesselEmailImg from "../assets/images/SoftvesselEmailImg.jpeg";
 
 const SoftVessel: FC = () => {
-  const titles: string[] = [
-    "React Web Applications",
-    "Enterprise Applications",
-    "Cloud Services",
-    "SaaS Platform Development",
-    "Mobile Application Development",
-    "Ecommerce Websites"
+  const productCardContent = [
+    {
+      title: "React Web Applications",
+      image: ReactLogo
+    },
+    {
+      title: "Enterprise Applications",
+      image: EnterpriseApp
+    },
+    {
+      title: "Cloud Services",
+      image: CloudServices
+    },
+    {
+      title: "SaaS Platform Development",
+      image: SaaS
+    },
+    {
+      title: "Mobile Application Development",
+      image: MobileApps
+    },
+    {
+      title: "Ecommerce Websites",
+      image: Ecommerce
+    }
   ];
-
-  const images: string[] = [ReactLogo, EnterpriseApp, CloudServices, Saas, MobileApps, Ecommerce];
 
   return (
     <Container className="softvessel">
@@ -48,30 +65,14 @@ const SoftVessel: FC = () => {
                       </Accordion.Header>
                       <Accordion.Body>
                         <Row className="mx-0">
-                          <ProductServicesCard
-                            title={"React Web Applications"}
-                            imgSrc={ReactLogo}
-                          />
-                          <ProductServicesCard
-                            title={"Enterprise Applications"}
-                            imgSrc={EnterpriseApp}
-                          />
-                          <ProductServicesCard
-                            title={"Cloud Services"}
-                            imgSrc={CloudServices}
-                          />
-                          <ProductServicesCard
-                            title={"SaaS Platform Development"}
-                            imgSrc={Saas}
-                          />
-                          <ProductServicesCard
-                            title={"Mobile Application Development"}
-                            imgSrc={MobileApps}
-                          />
-                          <ProductServicesCard
-                            title={"Ecommerce Websites"}
-                            imgSrc={Ecommerce}
-                          />
+                          {
+                            productCardContent.map((card) => {
+                              return <ProductServicesCard
+                                title={card.title}
+                                imgSrc={card.image}
+                              />;
+                            })
+                          }
                         </Row>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -110,6 +111,9 @@ const SoftVessel: FC = () => {
                   </Accordion>
                 </Col>
               </Row>
+            </Tab>
+            <Tab eventKey="HowWeContacted" title="How we contacted them?" className="px-3 pb-5">
+              <Image src={SoftvesselEmailImg} style={{width: '100%'}} />
             </Tab>
           </Tabs>
         </Col>
