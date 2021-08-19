@@ -5,23 +5,23 @@ import NavLink from "./Link";
 const NavigationBar: FC = () => {
   const [clickedHome, setClickedHome] = useState<boolean>(true);
   const [clickedSV, setClickedSV] = useState<boolean>(false);
-  const [clickedCL, setClickedCL] = useState<boolean>(false);
+  const [clickedSAN, setClickedSAN] = useState<boolean>(false);
 
   const handleOnClickHome = () => {
     setClickedHome(true);
-    setClickedCL(false);
+    setClickedSAN(false);
     setClickedSV(false);
   }
 
   const handleOnClickSV = () => {
     setClickedHome(false);
-    setClickedCL(false);
+    setClickedSAN(false);
     setClickedSV(true);
   }
 
-  const handleOnClickCL = () => {
+  const handleOnClickSAN = () => {
     setClickedHome(false);
-    setClickedCL(true);
+    setClickedSAN(true);
     setClickedSV(false);
   }
 
@@ -40,10 +40,10 @@ const NavigationBar: FC = () => {
               text={"Home"}
             />
             <NavLink
-              clicked={clickedCL}
-              link={"/commercial-leasing"}
-              handleOnClick={handleOnClickCL}
-              text={"Com-Leasing"}
+              clicked={clickedSAN}
+              link={"/sanasto"}
+              handleOnClick={handleOnClickSAN}
+              text={"Sanasto"}
             />
             <NavLink
               clicked={clickedSV}

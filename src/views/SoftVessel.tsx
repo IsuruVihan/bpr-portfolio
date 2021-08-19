@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {Accordion, Alert, Col, Container, Row, Tab, Tabs} from "react-bootstrap";
+import {Accordion, Alert, Col, Container, Image, Row, Tab, Tabs} from "react-bootstrap";
 import ProductServicesCard from "../components/ProductServicesCard";
 import ReactLogo from "../assets/images/react-logo.png";
 import EnterpriseApp from "../assets/images/enterprise-application.png";
@@ -7,6 +7,7 @@ import CloudServices from "../assets/images/cloud-services.jpg";
 import SaaS from "../assets/images/saas.png";
 import MobileApps from "../assets/images/moblie-apps.jpg";
 import Ecommerce from "../assets/images/ecommerce.jpg";
+import SoftvesselEmailImg from "../assets/images/SoftvesselEmailImg.jpeg";
 
 const SoftVessel: FC = () => {
   const productCardContent = [
@@ -110,6 +111,9 @@ const SoftVessel: FC = () => {
                   </Accordion>
                 </Col>
               </Row>
+            </Tab>
+            <Tab eventKey="HowWeContacted" title="How we contacted them?" className="px-3 pb-5">
+              <Image src={SoftvesselEmailImg} style={{width: '100%'}} />
             </Tab>
           </Tabs>
         </Col>

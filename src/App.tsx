@@ -6,7 +6,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom";
 import NavigationBar from "./components/nav/NavigationBar";
 import Home from "./views/Home";
 import SoftVessel from "./views/SoftVessel";
-import CommercialLeasing from "./views/CommercialLeasing";
+import Sanasto from "./views/Sanasto";
 import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
 
 const App: FC = () => {
@@ -23,9 +23,9 @@ const App: FC = () => {
             <ParticleBackground />
             <SoftVessel />
           </Route>
-          <Route path="/commercial-leasing">
+          <Route path="/sanasto">
             <ParticleBackground />
-            <CommercialLeasing />
+            <Sanasto />
           </Route>
         </Switch>
         </BrowserRouter>
