@@ -11,7 +11,7 @@ const ProductServicesCard: FC<ProductServicesCardProps> = (props) => {
 
   return (
     <Col className="p-2" md={3} sm={4} xs={12}>
-      <Card>
+      <Card border="secondary" className="p-1 text-center">
         <Card.Img variant="top" className="image" src={imgSrc} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
