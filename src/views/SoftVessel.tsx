@@ -9,6 +9,17 @@ import MobileApps from "../assets/images/moblie-apps.jpg";
 import Ecommerce from "../assets/images/ecommerce.jpg";
 
 const SoftVessel: FC = () => {
+  const titles: string[] = [
+    "React Web Applications",
+    "Enterprise Applications",
+    "Cloud Services",
+    "SaaS Platform Development",
+    "Mobile Application Development",
+    "Ecommerce Websites"
+  ];
+
+  const images: string[] = [ReactLogo, EnterpriseApp, CloudServices, Saas, MobileApps, Ecommerce];
+
   return (
     <Container className="softvessel">
       <Row className="mx-0" xs={12}>
