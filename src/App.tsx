@@ -7,27 +7,25 @@ import NavigationBar from "./components/nav/NavigationBar";
 import Home from "./views/Home";
 import SoftVessel from "./views/SoftVessel";
 import Sanasto from "./views/Sanasto";
-import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
+import Footer from "./components/Footer";
 
 const App: FC = () => {
   return (
       <Container className="px-0 app" fluid>
         <BrowserRouter>
-        <NavigationBar />
-        <Switch>
-          <Route exact path="/">
-            <ParticleBackground />
-            <Home />
-          </Route>
-          <Route path="/softvessel">
-            <ParticleBackground />
-            <SoftVessel />
-          </Route>
-          <Route path="/sanasto">
-            <ParticleBackground />
-            <Sanasto />
-          </Route>
-        </Switch>
+          <NavigationBar />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/softvessel">
+              <SoftVessel />
+            </Route>
+            <Route path="/sanasto">
+              <Sanasto />
+            </Route>
+          </Switch>
+          <Footer/>
         </BrowserRouter>
       </Container>
   );

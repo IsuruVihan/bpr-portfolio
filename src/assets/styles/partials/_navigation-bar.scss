@@ -4,7 +4,7 @@
   .navigation-bar {
     position: relative;
     background: $nav-background-color;
-
+    //background: #006d75;
     .heading {
       font-size: 1.5em;
       font-weight: 700;
@@ -21,23 +21,20 @@
       .link {
         cursor: pointer;
         padding: 5px;
-        border-radius: 30px;
+        border-radius: 10px;
 
         a {
           color: white;
           text-decoration: none;
         }
-
-        &:hover {
-          background: $clicked-nav-link-background-color;
-        }
       }
 
       .clicked {
         background: $clicked-nav-link-background-color;
+        //background: #b5f5ec;
 
         a {
-          color: white;
+          color: black;
           text-decoration: none;
         }
       }

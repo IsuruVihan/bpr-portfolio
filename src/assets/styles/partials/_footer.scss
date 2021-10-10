@@ -1,0 +1,13 @@
+.app {
+  .footer {
+    background: $nav-background-color;
+
+    .column {
+      color: white;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

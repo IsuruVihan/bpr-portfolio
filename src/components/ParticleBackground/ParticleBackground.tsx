@@ -5,19 +5,19 @@ const ParticleBackground: FC = () => {
   return (
     <Particles
       style={{position: 'absolute'}}
-      height="235vh"
+      // height={document.body.scrollHeight.toString() + "px"}
       params={
       {
         particles: {
           number: {
-            value: 20,
+            value: 10,
             density: {
               enable: true,
               value_area: 800
             }
           },
           color: {
-            value: "#096dd9"
+            value: "#13c2c2"
           },
           shape: {
             type: "polygon",
@@ -35,17 +35,17 @@ const ParticleBackground: FC = () => {
             }
           },
           opacity: {
-            value: 0.3,
+            value: 0.2,
             random: true,
             anim: {
-              enable: false,
+              enable: true,
               speed: 1,
               opacity_min: 0.1,
               sync: false
             }
           },
           size: {
-            value: 160,
+            value: 100,
             random: true,
             anim: {
               enable: true,
@@ -63,7 +63,7 @@ const ParticleBackground: FC = () => {
           },
           move: {
             enable: true,
-            speed: 5,
+            speed: 4,
             direction: "none",
             random: true,
             straight: false,
@@ -87,7 +87,7 @@ const ParticleBackground: FC = () => {
               enable: false,
               mode: "push"
             },
-            resize: true
+            resize: false
           },
           modes: {
             grab: {
@@ -114,7 +114,15 @@ const ParticleBackground: FC = () => {
             }
           }
         },
-        retina_detect: true
+        retina_detect: true,
+        config_demo: {
+          hide_card: false,
+          background_color: "#b61924",
+          background_image: "",
+          background_position: "50% 50%",
+          background_repeat: "no-repeat",
+          background_size: "cover"
+        }
       }
     }/>
   );

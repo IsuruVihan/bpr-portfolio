@@ -4,13 +4,24 @@
 
     .title {
       font-size: 1.3em;
-      font-weight: 600;
+      font-weight: 700;
     }
     .content {
       text-align: justify;
     }
     .image {
       height: 100%;
+    }
+    .video {
+      display: flex;
+      justify-content: center;
+    }
+    .points {
+      text-align: justify;
+    }
+    .section-title {
+      font-weight: 700;
+      text-decoration: underline;
     }
   }
 }

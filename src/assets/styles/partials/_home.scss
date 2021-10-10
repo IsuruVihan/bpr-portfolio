@@ -1,10 +1,12 @@
 .app {
-  background: #bae7ff;
-
   .home {
     position: relative;
 
-    .our-team {
+    .contribution {
+      background: white;
+    }
+
+    .our-team, .contribution {
       .title {
         font-size: 2em;
         font-weight: 700;
