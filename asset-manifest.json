@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/bpr-portfolio/static/css/main.6c42c476.chunk.css",
-    "main.js": "/bpr-portfolio/static/js/main.962a585e.chunk.js",
-    "main.js.map": "/bpr-portfolio/static/js/main.962a585e.chunk.js.map",
+    "main.js": "/bpr-portfolio/static/js/main.19b6b383.chunk.js",
+    "main.js.map": "/bpr-portfolio/static/js/main.19b6b383.chunk.js.map",
     "runtime-main.js": "/bpr-portfolio/static/js/runtime-main.d2bd63d8.js",
     "runtime-main.js.map": "/bpr-portfolio/static/js/runtime-main.d2bd63d8.js.map",
     "static/css/2.2aa38b9c.chunk.css": "/bpr-portfolio/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.9c0412ce.chunk.js": "/bpr-portfolio/static/js/2.9c0412ce.chunk.js",
-    "static/js/2.9c0412ce.chunk.js.map": "/bpr-portfolio/static/js/2.9c0412ce.chunk.js.map",
+    "static/js/2.f9de1c32.chunk.js": "/bpr-portfolio/static/js/2.f9de1c32.chunk.js",
+    "static/js/2.f9de1c32.chunk.js.map": "/bpr-portfolio/static/js/2.f9de1c32.chunk.js.map",
     "static/js/3.28ef2614.chunk.js": "/bpr-portfolio/static/js/3.28ef2614.chunk.js",
     "static/js/3.28ef2614.chunk.js.map": "/bpr-portfolio/static/js/3.28ef2614.chunk.js.map",
     "index.html": "/bpr-portfolio/index.html",
     "static/css/2.2aa38b9c.chunk.css.map": "/bpr-portfolio/static/css/2.2aa38b9c.chunk.css.map",
     "static/css/main.6c42c476.chunk.css.map": "/bpr-portfolio/static/css/main.6c42c476.chunk.css.map",
-    "static/js/2.9c0412ce.chunk.js.LICENSE.txt": "/bpr-portfolio/static/js/2.9c0412ce.chunk.js.LICENSE.txt",
+    "static/js/2.f9de1c32.chunk.js.LICENSE.txt": "/bpr-portfolio/static/js/2.f9de1c32.chunk.js.LICENSE.txt",
     "static/media/SanastoEmail.b61231c8.png": "/bpr-portfolio/static/media/SanastoEmail.b61231c8.png",
     "static/media/SoftvesselEmailImg.d3d67371.jpeg": "/bpr-portfolio/static/media/SoftvesselEmailImg.d3d67371.jpeg",
     "static/media/accucheck.4f9d4d42.webp": "/bpr-portfolio/static/media/accucheck.4f9d4d42.webp",
@@ -35,8 +35,8 @@
     "static/media/sanasto-procurement-tobe.f08b7443.jpg": "/bpr-portfolio/static/media/sanasto-procurement-tobe.f08b7443.jpg",
     "static/media/softvessel-crm-asin.8040a983.jpg": "/bpr-portfolio/static/media/softvessel-crm-asin.8040a983.jpg",
     "static/media/softvessel-crm-tobe.dee4863f.jpg": "/bpr-portfolio/static/media/softvessel-crm-tobe.dee4863f.jpg",
-    "static/media/softvessel-marketing-asin.997926f8.png": "/bpr-portfolio/static/media/softvessel-marketing-asin.997926f8.png",
-    "static/media/softvessel-marketing-tobe.db2ea69f.png": "/bpr-portfolio/static/media/softvessel-marketing-tobe.db2ea69f.png",
+    "static/media/softvessel-marketing-asin.8a252f9e.png": "/bpr-portfolio/static/media/softvessel-marketing-asin.8a252f9e.png",
+    "static/media/softvessel-marketing-tobe.c42036fe.png": "/bpr-portfolio/static/media/softvessel-marketing-tobe.c42036fe.png",
     "static/media/softvessel-sd-asin.e930af07.png": "/bpr-portfolio/static/media/softvessel-sd-asin.e930af07.png",
     "static/media/softvessel-sd-tobe.67453f4b.jpg": "/bpr-portfolio/static/media/softvessel-sd-tobe.67453f4b.jpg",
     "static/media/vaseline.de63c5c7.webp": "/bpr-portfolio/static/media/vaseline.de63c5c7.webp"
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.d2bd63d8.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.9c0412ce.chunk.js",
+    "static/js/2.f9de1c32.chunk.js",
     "static/css/main.6c42c476.chunk.css",
-    "static/js/main.962a585e.chunk.js"
+    "static/js/main.19b6b383.chunk.js"
   ]
 }
